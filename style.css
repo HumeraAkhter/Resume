@@ -1,0 +1,64 @@
+body{
+ font-family: arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ justify-self: center;
+ align-items: center;
+ height: 100vh;
+}
+label{
+    display: block;
+    margin-bottom: 0.7em;
+    font-weight: bold;
+    color: green;
+    font-size: 1.1em;
+}
+textarea{
+    height: 130px;
+    border-radius: 10px;
+}
+input[type="text"], input[type="email"],textarea{
+    width: 100%;
+    padding: 0.85em;
+    margin: 0.5em;
+    border:  2px  solid blue;
+    box-sizing: border-box;
+}
+.hidden{
+    display: none;
+}
+#resumePage img{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border:5px solid rgb(112, 243, 243);
+    
+}
+#resumePage h1{
+    text-align: center;
+    color:rgb(48, 145, 145) ;
+}
+#resumePage h2{
+    color: rgb(68, 68, 175);
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
