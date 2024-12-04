@@ -5,11 +5,12 @@ body{
  display: flex;
  justify-self: center;
  align-items: center;
- height: 100vh;
+ height: 90vh;
 }
 label{
     display: block;
-    margin-bottom: 0.7em;
+    margin-bottom: 0.20em;
+    
     font-weight: bold;
     color: green;
     font-size: 1.1em;
